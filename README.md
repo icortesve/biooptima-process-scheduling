@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📝 Documentación Técnica: Motores de Optimización y Persistencia (Sandbox)
 
 Este apartado detalla la arquitectura lógica y matemática desarrollada en el cuaderno de experimentación (`notebooks/sandbox_opt.ipynb`) para dar cumplimiento a los requerimientos analíticos del proyecto.
@@ -25,3 +26,7 @@ Este apartado detalla la arquitectura lógica y matemática desarrollada en el c
 ### 💾 Fase 4: Persistencia de Datos y Modelo Relacional (SQLite)
 * **Título de la Celda:** Almacenamiento y Auditoría del Cronograma Óptimo en SQL
 * **Descripción:** Integración de persistencia relacional al ciclo de vida del modelo de datos por medio de `sqlite3`. El código utiliza comandos estructurados de SQL para inicializar una base de datos local (`data/planta_piloto.db`), limpiar el entorno y guardar masivamente la secuencia calculada por el optimizador. Termina ejecutando una consulta de auditoría con ordenamiento secuencial (`SELECT ... ORDER BY`) para certificar la integridad y disponibilidad de los datos guardados.
+=======
+# biooptima-scheduling
+Sistema inteligente de optimización de recetas y secuenciación de operaciones (Scheduling) para plantas de fermentación industrial utilizando Python.
+>>>>>>> 9d9a2079a42000489991508d0b55f7e5a841630e
